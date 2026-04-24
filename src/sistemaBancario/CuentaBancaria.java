@@ -34,7 +34,7 @@ public class CuentaBancaria {
     }
 
     public String describir(){
-        return "Cuenta: "+getNumeroCuenta()+"Titular: "+getTitular()+"Saldo: "+getSaldo();
+        return "Cuenta: "+getNumeroCuenta()+" Titular: "+getTitular()+" Saldo: "+getSaldo();
     }
 
     public double calcularComision(){
